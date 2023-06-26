@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <style>
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }
+    .container
+    {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #f7f7f7;
+    }
+    .container .blog-section /*გვერდეებში დატოვებს სიცარიელეეს*/
+    {
+        width: 80%;
+        margin:0px auto;
+    }
+    .container .blog-section .heading 
+    {
+       width: 60%;
+       text-align: center;
+       margin: 0px auto;
+
+    }
+    .container .blog-section .heading h1
+    {
+        padding-top: 20px;
+        font-size: 42px;
+        color:#af8382;
+    }
+    .container .blog-section .heading p
+    {
+        margin-top: 10px;
+        color: #6e6e6e;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    .content
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .content .card
+    {
+        flex: 1;
+        margin: :30px 15px;
+        box-shadow:0px 0px 2px 0px rgba(0,0,0,0.2);
+        
+    }
+    .content .card  img
+    {
+        width:100%;
+        height: 0 auto;
+    }
+    .content .card .text-title
+    {
+        font-size: 15px;
+        color:: #000;
+        font-weight: 600;
+        
+    }
+    .content .card .span
+    {
+        color: #6e6e6e;
+        font-weight: normal;
+    }
+    .content .card h4
+    {
+        margin: 5px 10px;
+        font-size: 16px;
+        color:#6e6e6e;
+    }
+    .content .card a 
+    {
+        text-decoration: none;
+        font-size: 17px;
+        display: inline-block;
+        padding: 6px 10px;
+        color: #fff;
+        background-color: #af8382;
+        margin: 15px 10px;
+        border-radius: 5px;
+    }
+    .content .card a:hover
+    {
+        background-color: #af8382;
+        transform: 0.4s;
+    }
+    @media screen and(max-width: 768px)
+    {
+        .content{
+            flex-direction: column;
+        }
+    }
+ </style>
+    <div class="container">
+        <div class="blog-section">
+            <div class="heading">
+                <h1>Our Blog</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Labore dolore deserunt non architecto, iste impedit! Voluptatibus 
+                dignissimos debitis nemo assumenda, repellat id odio asperiores quidem eos eum in, vitae quisquam.</p>   
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h4>Titanc movie 1912 14 April</h4>
+                    <img src="./Titanic.png" alt="">
+                    <p class="text-title">Tita<span>nic</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Ipsa, magni! Quis eveniet deserunt labore optio, architecto unde quibusdam sit 
+                    ullam eos tempore obcaecati ab esse, laboriosam commodi cum quam modi?</p>
+                    <a href="" class="button">Read More</a>
+                </div>
+                <div class="card">
+                    <h4>Avatar</h4>
+                    <img src="./Avatar4.png" alt="">
+                    <p class="text-title">Avat <span>tar</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Ipsa, magni! Quis eveniet deserunt labore optio, architecto unde quibusdam sit 
+                    ullam eos tempore obcaecati ab esse, laboriosam commodi cum quam modi?</p>
+                    <a href="" class="button">Read More</a>
+                </div>
+                <div class="card">
+                    <h4>Teen Wolf</h4>
+                    <img src="./download65.jpg" alt="">
+                    <p class="text-title">Teen <span>Wolf</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Ipsa, magni! Quis eveniet deserunt labore optio, architecto unde quibusdam sit 
+                    ullam eos tempore obcaecati ab esse, laboriosam commodi cum quam modi?</p>
+                    <a href="" class="button">Read More</a>
+                </div>
+                <div class="card">
+                    <h4>Fast X</h4>
+                    <img src="./145download.jpg" alt="">
+                    <p class="text-title">Fast<span>X</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Ipsa, magni! Quis eveniet deserunt labore optio, architecto unde quibusdam sit 
+                    ullam eos tempore obcaecati ab esse, laboriosam commodi cum quam modi?</p>
+                    <a href="" class="button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--css-->
+     <link rel="stylesheet" href="./scr/style.css">
+    <title>Movies Tv</title>
+</head>
+<body>   
+    <header>  
+        <form  id="form"> 
+            <input type="text" placeholder="Search" id="search" class="search"> 
+        </form>
+           <!-- navigacia -->
+           <nav class="nav_container">
+            <ul class="nav_link row">
+                <li>Home</li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./scr/blog.html">Blog</a></li>
+                <li><a href="./scr/contact.html">Contact</a></li>
+            </ul>
+        </nav>       
+      </div>
+    </div>
+ </div>
+ <!--open menu-->
+ <div id="mySidenav" class="sidenav">
+  <div class="logo"><h1>Movies Tv</h1></div>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+ <!--open end-->
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./scr/1629827537-3009.jpg" style="width:100%">
+          <div class="text">Teen wolf</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./scr/imag.jpg" style="width:100%">
+          <div class="text">Fast X</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./scr/photo.png" style="width:100%">
+          <div class="text">Avatar</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+    </div>
+    <script src="./scr/script.js"></script>
+</body>
+</html>
